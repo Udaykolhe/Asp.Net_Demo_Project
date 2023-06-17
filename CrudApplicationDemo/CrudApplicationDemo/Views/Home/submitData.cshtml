@@ -1,0 +1,51 @@
+﻿@model  IEnumerable< CrudApplicationDemo.Models.Student>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>submitData</title>
+</head>
+<body>
+    <div> 
+          <table border="1">
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+
+                </th>
+                <th>
+                    Mobile
+                </th>
+            </tr>
+           @foreach (var item in Model)
+           {
+            <tr>
+                <td>
+                    @item.m_id
+                </td>
+                <td>
+                    @item.m_name
+                </td>
+                <td>
+                    @item.m_mobile_no
+                </td>
+
+            </tr>
+           }
+                         
+           
+            
+                
+           
+        </table>
+    </div>
+</body>
+</html>

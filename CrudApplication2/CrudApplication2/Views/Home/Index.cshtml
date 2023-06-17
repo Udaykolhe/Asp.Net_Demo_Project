@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @using (Html.BeginForm("submitData", "Home",FormMethod.Post))
+        {
+            @Html.TextBox("m_firstname")<br />
+            @Html.ValidationMessage("m_firstname")
+             <br /><br />
+            @Html.TextBox("m_lastname")<br />
+            @Html.ValidationMessage("m_lastname")
+             <br /><br />
+            @Html.TextBox("m_email")<br />
+            @Html.ValidationMessage("m_email")
+            <br /><br />
+            @Html.TextBox("m_mobile")<br />
+            @Html.ValidationMessage("m_mobile")
+            <br /><br />
+            
+            <input type="submit" value="Submit" />
+
+
+
+        }
+    </div>
+</body>
+</html>

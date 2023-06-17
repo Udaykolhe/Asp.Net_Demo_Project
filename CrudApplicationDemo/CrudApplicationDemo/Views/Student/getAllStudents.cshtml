@@ -1,0 +1,52 @@
+﻿@model IEnumerable<CrudApplicationDemo.Models.Student>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>getAllStudents</title>
+</head>
+<body >
+    <p>
+        @Html.ActionLink("Create New", "Create")
+       <br />
+        <br />
+       Total student :---- @ViewBag.studentList
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.m_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.m_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.m_mobile_no)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.m_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.m_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.m_mobile_no)
+            </td>
+            
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

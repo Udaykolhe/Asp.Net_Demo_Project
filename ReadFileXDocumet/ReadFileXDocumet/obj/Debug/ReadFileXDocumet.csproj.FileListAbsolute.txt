@@ -1,0 +1,8 @@
+c:\users\uday_11013767\documents\visual studio 2013\Projects\ReadFileXDocumet\ReadFileXDocumet\bin\Debug\ReadFileXDocumet.exe.config
+c:\users\uday_11013767\documents\visual studio 2013\Projects\ReadFileXDocumet\ReadFileXDocumet\bin\Debug\ReadFileXDocumet.exe
+c:\users\uday_11013767\documents\visual studio 2013\Projects\ReadFileXDocumet\ReadFileXDocumet\bin\Debug\ReadFileXDocumet.pdb
+c:\users\uday_11013767\documents\visual studio 2013\Projects\ReadFileXDocumet\ReadFileXDocumet\bin\Debug\XMLDocumentation.exe
+c:\users\uday_11013767\documents\visual studio 2013\Projects\ReadFileXDocumet\ReadFileXDocumet\bin\Debug\XMLDocumentation.pdb
+c:\users\uday_11013767\documents\visual studio 2013\Projects\ReadFileXDocumet\ReadFileXDocumet\obj\Debug\ReadFileXDocumet.csprojResolveAssemblyReference.cache
+c:\users\uday_11013767\documents\visual studio 2013\Projects\ReadFileXDocumet\ReadFileXDocumet\obj\Debug\ReadFileXDocumet.exe
+c:\users\uday_11013767\documents\visual studio 2013\Projects\ReadFileXDocumet\ReadFileXDocumet\obj\Debug\ReadFileXDocumet.pdb

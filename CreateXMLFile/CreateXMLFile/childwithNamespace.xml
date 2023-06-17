@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aw:Root xmlns:aw="http://www.adventure-works.com" xmlns:fc="www.fouthcoffee.com">
+  <fc:Child Color="Red">
+    <aw:DifferentChild>Other Content</aw:DifferentChild>
+  </fc:Child>
+  <aw:Child2 color="Yellow">Child2 Content</aw:Child2>
+  <fc:Child3>Child3 Content</fc:Child3>
+  <fc:Daughter Size="XL">
+    <Child1>DChild1</Child1>
+    <Child2>DChild2</Child2>
+  </fc:Daughter>
+</aw:Root>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "xmlDoc", "xmlDoc\xmlDoc.vbproj", "{EEF4B941-1B27-49B8-ABDF-5D0CE72C4B8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEF4B941-1B27-49B8-ABDF-5D0CE72C4B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF4B941-1B27-49B8-ABDF-5D0CE72C4B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF4B941-1B27-49B8-ABDF-5D0CE72C4B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF4B941-1B27-49B8-ABDF-5D0CE72C4B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

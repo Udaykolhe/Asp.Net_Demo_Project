@@ -1,0 +1,28 @@
+﻿@model CrudApplication2._0.Models.Student
+
+
+        @using (Html.BeginForm("submitData", "Home",FormMethod.Post))
+        {
+            @Html.ValidationSummary()
+            
+            @Html.LabelFor(model => model.m_firstname, new { style = "color : red" })
+             @Html.TextBoxFor(model => model.m_firstname)
+            
+            
+            <br /><br />
+            @Html.LabelFor(model => model.m_lastname, new { style = "color : red" })
+            @Html.TextBoxFor(model => model.m_lastname) <br />
+           
+            <br /><br />
+            @Html.LabelFor(model => model.m_email, new { style = "color : red" })
+            @Html.TextBoxFor(model => model.m_email)<br />
+           
+            <br /><br />
+            @Html.LabelFor(model => model.m_mobile, new { style = "color : red" })
+            @Html.TextBoxFor(model => model.m_mobile)<br />
+            
+            <br /><br />
+
+            <input type="submit" value="Submit" />
+
+}
